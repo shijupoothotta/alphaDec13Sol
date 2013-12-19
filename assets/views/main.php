@@ -68,14 +68,13 @@
   <div class="sm-wrap">
     <h1 class="sm-logo">next</h1>
     <i class="icon-remove menu-close"></i>
-    <a class="scroll-link"  data-soffset="0" href="#intro">Home</a>
+    <a class="scroll-link"  data-soffset="0" href="#home">Home</a>
     <a class="scroll-link"  data-soffset="0" href="#about">About</a>
-    <a class="scroll-link"  data-soffset="0" href="#testimonials">Testimonial</a>
+	<a href="single-profile.html">Profile Page</a>    
     <a class="scroll-link"  data-soffset="0" href="#portfolio">Portfolio</a>
-    <a class="scroll-link"  data-soffset="0" href="#services">Services</a>
-    <a class="scroll-link"  data-soffset="0" href="#contact">Contact</a>
-    <a href="single-profile.html">Profile Page</a>
-    <a href="#">Project Page</a>
+    <a href="single-profile.html">Project Page</a>    
+    <a class="scroll-link"  data-soffset="0" href="#services">Services</a>  
+    <a class="scroll-link"  data-soffset="0" href="#contact">Contact</a>  
   </div>
   <!-- Navigation Trigger Button -->
   <div id="sm-trigger"></div>
@@ -93,7 +92,7 @@
 <div id="sidebar-nav" class="sq-side-menu hidden-xs">
     <ul>
       <!-- Starting : Nav Block -->
-      <li class="next-bg-one">
+      <li class="next-bg-eleven">
         <a class="scroll-link" id="home-link" href="#home" data-soffset="0">
           <div class="first">
             <div class="arrow-right"></div>
@@ -108,7 +107,7 @@
       <!-- Ending : Nav Block -->
       
       <!-- Starting : Nav Block -->
-      <li class="next-bg-two">
+      <li class="next-bg-one">
          <a class="scroll-link" id="about-link" href="#about" data-soffset="0">
           <div class="first">
             <div class="arrow-right"></div>
@@ -121,9 +120,24 @@
         </a>
       </li>
      <!-- Ending : Nav Block -->
-      
+     
       <!-- Starting : Nav Block -->
-      <li class="next-bg-four">
+      <li class="next-bg-five">
+        <a id="profile-link" href="single-profile.html" data-soffset="0">
+          <div class="first">
+            <div class="arrow-right"></div>
+            <div class="content"><img alt="" title="" src="images/icons/04.png"/></div>
+          </div>
+          <div class="second">
+            <div class="arrow-left"></div>
+            <div class="content">Profile</div>
+          </div>
+        </a>
+      </li>
+      <!-- Ending : Nav Block -->  
+          
+      <!-- Starting : Nav Block -->
+      <li class="next-bg-two">
         <a class="scroll-link" id="portfolio-link" href="#portfolio" data-soffset="0">
           <div class="first">
             <div class="arrow-right"></div>
@@ -136,6 +150,21 @@
         </a>
       </li>
       <!-- Ending : Nav Block -->
+      
+      <!-- Starting : Nav Block -->
+      <li class="next-bg-six">
+        <a id="project-link" href="#" data-soffset="0">
+          <div class="first">
+            <div class="arrow-right"></div>
+            <div class="content"><img alt="" title="" src="images/icons/02.png"/></div>
+          </div>
+          <div class="second">
+            <div class="arrow-left"></div>
+            <div class="content">Project</div>
+          </div>
+        </a>
+      </li>
+      <!-- Ending : Nav Block -->      
       
       <!-- Starting : Nav Block -->
       <li class="next-bg-three">
@@ -152,8 +181,9 @@
       </li>
       <!-- Ending : Nav Block -->
       
+      
       <!-- Starting : Nav Block -->
-      <li class="next-bg-six">
+      <li class="next-bg-eight">
        <a class="scroll-link" id="contact-link" href="#contact" data-soffset="0">
           <div class="first">
             <div class="arrow-right"></div>
@@ -165,38 +195,8 @@
           </div>
         </a>
       </li>
-      <!-- Ending : Nav Block -->
+      <!-- Ending : Nav Block -->      
       
-      <!-- Starting : Nav Block -->
-      <li class="next-bg-five">
-        <a id="project-link" href="#" data-soffset="0">
-          <div class="first">
-            <div class="arrow-right"></div>
-            <div class="content"><img alt="" title="" src="images/icons/02.png"/></div>
-          </div>
-          <div class="second">
-            <div class="arrow-left"></div>
-            <div class="content">Project</div>
-          </div>
-        </a>
-      </li>
-      <!-- Ending : Nav Block -->
-      
-      <!-- Starting : Nav Block -->
-      <li class="next-bg-eight">
-        <a id="profile-link" href="single-profile.html" data-soffset="0">
-          <div class="first">
-            <div class="arrow-right"></div>
-            <div class="content"><img alt="" title="" src="images/icons/04.png"/></div>
-          </div>
-          <div class="second">
-            <div class="arrow-left"></div>
-            <div class="content">Profile</div>
-          </div>
-        </a>
-      </li>
-      <!-- Ending : Nav Block -->
-     
     </ul>
     <!-- end sq-side-menu ul -->
   </div>
@@ -229,7 +229,7 @@
         <!-- Tile : Starts -->
         <div class="tile nav-tile tile-01  next-bg-one">
           <a class="tile-nav scroll-link" href="#about" data-soffset="0">
-            <div class="nav-hover next-bg-twelve">
+            <div class="nav-hover next-bg-six">
                 <h5>Work Smart <br />
                 Work Moderate</h5>
                 <p>Service Provider for Online Business Solutions</p>
@@ -253,8 +253,8 @@
         <div class="tile nav-tile tile-01  next-bg-two">
           <a class="tile-nav scroll-link" href="#portfolio" data-soffset="0">
             <div class="nav-hover next-bg-four">
-                <h5>200 Websites / 32 CMS / 11 Ecommerce solutions</h5>
-                <p>Our best works are here</p>
+                <h5>System Analysts Web Developers Graphic Designers</h5>
+                <p>Teamwork is all about relationships.</p>
              </div>
             <span>Portfolio</span>
             <img alt="" title="" src="images/icons/06.png"/>
@@ -280,11 +280,11 @@
        <!-- Tile : Starts -->
         <div class="tile nav-tile tile-01  next-bg-three">
           <a class="tile-nav scroll-link" href="#services" data-soffset="0">
-            <div class="nav-hover next-bg-eight">
-                <h5>Web Design / CMS / Ecommerce..etc</h5>
-                <p>Have a look on what we do</p>
+            <div class="nav-hover next-bg-seven">
+                <h5>Developers, CMS, Ecommerce, SEO</h5>
+                <p>Technology at its pinnacle. Have a problem! <strong>Solvato</strong></p>
              </div>
-            <span>Our Services</span>
+            <span>Services</span>
             <img alt="" title="" src="images/icons/03.png"/>
           </a>
         </div>
@@ -312,10 +312,10 @@
          <div class="tile nav-tile tile-01 next-bg-six">
           <a class="tile-nav scroll-link" href="#testimonials" data-soffset="0">
             <div class="nav-hover next-bg-eight">
-                <h5>Testimonial</h5>
-                <p>more</p>
+                <h5>National 70+ International 30+</h5>
+                <p>Usually clients speak for us.</p>
              </div>
-            <span>Testimonial</span>
+            <span>Projects</span>
             <img alt="" title="" src="images/icons/02.png"/>
           </a>
         </div>
@@ -327,10 +327,10 @@
         <div class="tile nav-tile tile-01 next-bg-five">
           <a href="single-profile.html" class="tile-nav">
             <div class="nav-hover next-bg-ten">
-                <h5>Our profile </h5>
-                <p>Standalone page</p>
+                <h5>Websites 100+ CMS 30+ Ecommerce 10+</h5>
+                <p>Ideas into reality. Client satisfaction is the solution</p>
              </div>
-            <span>Profile Page</span>
+            <span>Profile</span>
             <img alt="" title="" src="images/icons/04.png"/>
           </a>
         </div>
@@ -359,8 +359,8 @@
         <div class="tile nav-tile tile-01 next-bg-eight">
           <a class="tile-nav scroll-link" href="#contact" data-soffset="0">
             <div class="nav-hover next-bg-one">
-                <h5>Have a project or message for us?</h5>
-                <p>Shoot an email now</p>
+                <h5>Do you have a project or message?</h5>
+                <p>Solvato! Shoot a message now &raquo;</p>
              </div>
             <span>Contact Us</span>
             <img alt="" title="" src="images/icons/05.png"/>
@@ -423,7 +423,32 @@
           <article class="col-md-5 col-xs-6 mob-hor-full text-left">
             <img class="img-responsive" alt="" title="" src="images/about/profile.jpg"/>
           </article>
+          
           <article class="col-md-7 col-xs-6 mob-hor-full text-left">
+          <p>
+Static websites just aren't enough these days. Internet-savvy users now demand frequently updated material. Daily updates are preferred, but weekly updates are essential. To achieve this, you need an effective content management system and you need a blog. We make sure to build web sites so that users can easily update them for themselves.
+		</p>
+          <p>
+Solvato help people develop their online presence, whether they are businesses or individuals. Our main objective is to ensure that you get what you want out of your website. We put a lot of effort into ensuring that your online presence ideally suits your needs. 
+		</p>
+          <p>
+Solvato experts using Java, PHP, Classic ASP, JavaScript, AJAX, Visual Basic, C/C++ programming languages, and we are expert at secure ecommerce solutions, content management systems, Bespoke, and SEO consultancy. When it comes to databases, we can easily work with Orace, MYSQL and Microsoft SQL Server. Experience of running social media campaigns on google plus, facebook and twitter.
+		</p>                  
+          </article>
+        </div>
+        <div class="row add-top fx fx-bounceIn">
+          <article class="col-md-7 col-xs-6 mob-hor-full text-left">
+          <p>
+Static websites just aren't enough these days. Internet-savvy users now demand frequently updated material. Daily updates are preferred, but weekly updates are essential. To achieve this, you need an effective content management system and you need a blog. We make sure to build web sites so that users can easily update them for themselves.
+		</p>
+          <p>
+Solvato help people develop their online presence, whether they are businesses or individuals. Our main objective is to ensure that you get what you want out of your website. We put a lot of effort into ensuring that your online presence ideally suits your needs. 
+		</p>
+          <p>
+Solvato experts using Java, PHP, Classic ASP, JavaScript, AJAX, Visual Basic, C/C++ programming languages, and we are expert at secure ecommerce solutions, content management systems, Bespoke, and SEO consultancy. When it comes to databases, we can easily work with Orace, MYSQL and Microsoft SQL Server. Experience of running social media campaigns on google plus, facebook and twitter.
+		</p>
+          </article>        
+          <article class="col-md-5 col-xs-6 mob-hor-full text-left">
             <ul class="be-social">
               <li><a href="#"><span class="next-bg-eight">Follow our tweets on Twitter</span></a></li>
               <li><a href="#"><span class="next-bg-two">Browse our recent Dribbble shots</span></a></li>
@@ -432,7 +457,8 @@
               <li><a href="#"><span class="next-bg-five">Explore our projects</span></a></li>
             </ul>
           </article>
-        </div>
+          
+        </div>        
 
         
       </section>

@@ -6,9 +6,13 @@ class Home extends \App\Page {
 
     public function action_index() {
  
-		$this->view->subview = 'list';
-
-        $this->view->fairies = $this->pixie->orm->get('fairy')->find_all();
+		$this->view->home = 'home';
+		$this->view->about = 'about';
+		$this->view->profile = 'profile';
+		$this->view->service = 'service';		
+		$this->view->project = 'project';
+		$this->view->portfolio = 'portfolio';
+		$this->view->contact = 'contact';
     }
  
     public function action_view() {
